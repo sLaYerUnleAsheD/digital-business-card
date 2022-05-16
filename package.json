@@ -1,0 +1,42 @@
+{
+  "name": "digital-business-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://sLaYerUnleAsheD.github.io/digital-business-card",
+  "scripts": {
+    "start": "webpack-dev-server --hot --open",
+    "build": "webpack --config webpack.config.js --mode production",
+    "serve": "webpack serve --mode development",
+    "predeploy": "npm run build",
+    "deploy": "gh -pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "bootstrap-loader": "^3.0.4",
+    "create-react-app": "^3.4.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lolapp": "^1.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "save-dev": "0.0.1-security",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "style-loader": "^3.3.1"
+  }
+}

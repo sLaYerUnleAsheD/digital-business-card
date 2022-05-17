@@ -259,26 +259,26 @@ main{
 
 @media screen and (max-width: 414px) {
     main{
-        top: 150px;
+        top: 120px;
         left: 50%;
         transform: translateX(-50%);
         height: 399px;
         position: absolute;
     }
     .my-face/*, .mid*/{
-        width: 290px;
-        height: 290px;
+        width: 250px;
+        height: 250px;
     }
     .mid{
         height: 400px;
-        width: 290px;
+        width: 250px;
         /* top: 350px; */
         margin-top: 0;
         /* left: 50%; */
         /* transform: translateX(-50%); */
     }
     .about, .interests{
-        width: 250px;
+        width: 220px;
     }
     .name{
         margin-top: 5px;
@@ -289,12 +289,17 @@ main{
         margin-top: 0;
     }
     .email, .linkedin{
-        width: 110px;
-        font-size: 14px;
+        width: 90px;
+        font-size: 12px;
     }
     .icons{
-        top: 499px;
-        width: 290px;
-        height: 48px;
+        top: 479px;
+        width: 250px;
+        height: 38px;
+        padding-right: 13px;
+    }
+    .icons > button{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
     }
 }

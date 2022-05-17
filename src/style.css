@@ -8,6 +8,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     margin: 0;
     background: url("https://sportshub.cbsistatic.com/i/2021/03/18/484084d5-0e58-47b9-a3b8-a3ebf84061f8/one-piece-buggy-seven-warlords-system-ends-cliffhanger-reverie-w-1252276.jpg");
     background-repeat: no-repeat;
@@ -254,4 +255,49 @@ main{
     align-items: center;
     background: #1A1B21;
     margin-bottom: 23px;
+}
+
+@media screen and (max-height: 900px) {
+    body{
+        overflow: scroll;
+    }
+    main{
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 399px;
+        position: absolute;
+    }
+    .my-face/*, .mid*/{
+        width: 290px;
+        height: 290px;
+    }
+    .mid{
+        height: 400px;
+        width: 290px;
+        /* top: 350px; */
+        margin-top: 0;
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+    }
+    .about, .interests{
+        width: 250px;
+    }
+    .name{
+        margin-top: 5px;
+        margin-bottom: 2px;
+        font-size: 20px;
+    }
+    .container--position{
+        margin-top: 0;
+    }
+    .email, .linkedin{
+        width: 110px;
+        font-size: 14px;
+    }
+    .icons{
+        top: 499px;
+        width: 290px;
+        height: 48px;
+    }
 }

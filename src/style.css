@@ -258,9 +258,6 @@ main{
 }
 
 @media screen and (max-width: 414px) {
-    body{
-        overflow: scroll;
-    }
     main{
         top: 150px;
         left: 50%;
